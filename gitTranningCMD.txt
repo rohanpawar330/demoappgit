@@ -26,6 +26,12 @@ at github just show the changes
 git checkout -b "add-install" ###make new branch then add,commit and 
 git push -u origin add-install ###push it
 
+git branch ###see the branch
+$ git branch
+* add-install
+  master
 
+git checkout master###to change the branch to  master 
+git checkout add-install###to change the branch to add-install
 
 
