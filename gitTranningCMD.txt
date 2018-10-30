@@ -5,16 +5,16 @@ git init DemoApp
 cd .git/
 vi config
 git status
-git add README.md --ready to commit but not commited
+git add README.md ###ready to commit but not commited
 git commit -m "Initial commit"
---include more files and add the by using "add ." 
+###include more files and add the by using "add ." 
 git status
 git commit -m "3 files commited index info & inst"
-git reset head . --resed the add file 
-git remote -v --to get remote access of ur repo at git hub
---add the url provided at github
+git reset head . ###resed the add file 
+git remote -v ###to get remote access of ur repo at git hub
+###add the url provided at github
 git remote add origin https://github.com/rohanpawar330/gitTutorial.git 
---push the file to github
+###push the file to github
 git push -u origin master
 ======================================================
 git fetch              &    git pull
