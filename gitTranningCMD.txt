@@ -1,5 +1,5 @@
-git config --global user.name "rohan pawar"
-git config --global user.email "rohanpawar330@gmail.com"
+git config --global user.name "User Name"
+git config --global user.email "Email@gmail.com"
 notepad
 git init DemoApp
 cd .git/
@@ -13,7 +13,7 @@ git commit -m "3 files commited index info & inst"
 git reset head . ###resed the add file 
 git remote -v ###to get remote access of ur repo at git hub
 ###add the url provided at github
-git remote add origin https://github.com/rohanpawar330/gitTutorial.git 
+git remote add origin https://github.com/URL... 
 ###push the file to github
 git push -u origin master
 ======================================================
