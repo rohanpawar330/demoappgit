@@ -34,4 +34,27 @@ $ git branch
 git checkout master###to change the branch to  master 
 git checkout add-install###to change the branch to add-install
 
+git tag tag_name###in master
+git log --oneline --graph --decorate --all
+-----------------------------------------------------------------------------------
+$ git tag -a v0.1 -m "release 1" 82336f5 ###-a annotated -m message
+
+TRG@GURUW42S1982 MINGW64 /d/gitTutorial/demoappgit (add-install)
+$ git log --oneline --graph --decorate --all
+* 7fab248 (HEAD -> add-install, origin/add-install) installation guid
+* 93f7ab0 (tag: stable, origin/master, origin/HEAD, master) Update gitTranningCMD.txt
+* 82336f5 Update gitTranningCMD.txt
+* 5f0b70e Create config.txt
+* 9c1e038 Git Tranning cmd
+* c7a3c66 Update README.md
+* 6192f7f Update README.md
+* 63eca22 index file changed
+* 6c6bc21 Update and rename README.md.txt to README.md
+* 1a4db96 3 files commited index info & inst
+* 7616a12 Initial commit
+
+TRG@GURUW42S1982 MINGW64 /d/gitTutorial/demoappgit (add-install)
+$ git tag -a v0.1 -m "release 1" 82336f5
+------------------------------------------------------------------------------------
+
 
