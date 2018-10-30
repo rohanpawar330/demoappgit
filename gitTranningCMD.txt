@@ -17,9 +17,10 @@ git remote add origin https://github.com/URL...
 ###push the file to github
 git push -u origin master
 ======================================================
-git fetch              &    git pull
-it merges ur changes       it replace the whole  
-with the code avail        code with the github code.
-at github
+git fetch                         &    git pull
+it'll not merges ur changes          it fetch and merge the whole  
+with the code avail                  code with the github code.
+at github just show the changes
+
 
 
