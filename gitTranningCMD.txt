@@ -55,6 +55,12 @@ $ git log --oneline --graph --decorate --all
 
 TRG@GURUW42S1982 MINGW64 /d/gitTutorial/demoappgit (add-install)
 $ git tag -a v0.1 -m "release 1" 82336f5
+
+$ git push --tags ###push tag to repo to see changes
 ------------------------------------------------------------------------------------
+
+git tag -d "stable" ###delete the tag use tag name or version.
+git push origin :stable ###push the tag to see in repo
+
 
 
