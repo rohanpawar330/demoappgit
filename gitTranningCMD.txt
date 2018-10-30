@@ -23,4 +23,9 @@ with the code avail                  code with the github code.
 at github just show the changes
 
 
+git checkout -b "add-install" ###make new branch then add,commit and 
+git push -u origin add-install ###push it
+
+
+
 
